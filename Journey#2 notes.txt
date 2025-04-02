@@ -1,0 +1,4 @@
+Tileset = 12x12px
+Sceen width = 30 tiles = 1800px
+Sceen height = 18 tiles = 1080px
+
