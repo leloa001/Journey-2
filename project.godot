@@ -11,5 +11,17 @@ config_version=5
 [application]
 
 config/name="Journey-2"
+run/main_scene="res://Levels/level1.tscn"
 config/features=PackedStringArray("4.2", "Forward Plus")
 config/icon="res://icon.svg"
+
+[display]
+
+window/size/viewport_width=360
+window/size/viewport_height=216
+window/size/mode=3
+window/stretch/mode="viewport"
+
+[rendering]
+
+textures/canvas_textures/default_texture_filter=0

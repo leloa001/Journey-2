@@ -1,3 +1,8 @@
-[gd_scene format=3 uid="uid://bm7oe1nj4bi1b"]
+[gd_scene load_steps=2 format=3 uid="uid://bm7oe1nj4bi1b"]
+
+[ext_resource type="PackedScene" uid="uid://c6mgudgk3lw8m" path="res://Characters/Darryl-bartimus.tscn" id="1_djlye"]
 
 [node name="Node2D" type="Node2D"]
+
+[node name="CharacterBody2D" parent="." instance=ExtResource("1_djlye")]
+position = Vector2(33, 31)
