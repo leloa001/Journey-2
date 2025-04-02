@@ -1,0 +1,30 @@
+[gd_scene load_steps=3 format=3 uid="uid://b6fiy7qub8y73"]
+
+[ext_resource type="Texture2D" uid="uid://bir2wim0eorol" path="res://UI/Menu Art.png" id="1_iu7jq"]
+[ext_resource type="Texture2D" uid="uid://delsca8lycvey" path="res://UI/Menu buttons.png" id="2_7rl50"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="MenuArt" type="Sprite2D" parent="."]
+position = Vector2(180, 108)
+scale = Vector2(2, 2)
+texture = ExtResource("1_iu7jq")
+
+[node name="MenuButtons" type="Sprite2D" parent="."]
+position = Vector2(150, 110)
+scale = Vector2(1.5, 1.5)
+texture = ExtResource("2_7rl50")
+
+[node name="Play" type="Button" parent="."]
+offset_left = 19.0
+offset_top = 71.0
+offset_right = 128.0
+offset_bottom = 106.0
+flat = true
+
+[node name="Quit" type="Button" parent="."]
+offset_left = 19.0
+offset_top = 152.0
+offset_right = 128.0
+offset_bottom = 187.0
+flat = true
